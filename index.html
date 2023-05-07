@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Generador de Nombres Aleatoris</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="column middle">
+        <h1>Generador de nombres aleatoris</h1>
+        <p id="info">Fes clic al botó per generar un nombre aleatori sense repetició.<br> El rang per defecte és 1-100, però podeu canviar-lo a la dreta.</p>
+        <button onclick="generateNumber()">Genera Nombre</button>
+        <p id="result"></p>
+        <br><br>
+        <button onclick="resetNumbers(1)">Torna a començar</button>
+      </div>
+  
+      <div class="column side">
+        <p>Canvia el Rang: </p>
+        <input type="text" id="rangeInput">
+        <br><br>
+        <button onclick="agafa()">Canvia Rang</button>
+        <p id="rangTxt"></p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <hr>
+      <p align="center" class="drets">and4po games © Tots els drets reservats. 2022</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
