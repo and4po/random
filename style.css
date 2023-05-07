@@ -1,0 +1,101 @@
+body{
+  background-color: #07002f;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Columna selector rang */
+.column.side {
+  width: 25%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Columna del mig */
+.column.middle {
+  width: 70%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
+#rang {
+  float: right;
+  padding: 10px;
+  float: left;
+  width: 20%;
+  margin-top: 50px;
+  border: 3px solid #73AD21;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#info {
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+button {
+  font-family: "Courier New", monospace;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bffcd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+p {
+  font-family: "Courier New", monospace;
+  font-size: 24px;
+  margin-top: 20px;
+  color: white;
+}
+
+#rangTxt {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  margin-top: 20px;
+  color: tomato
+}
+
+.drets {
+  font-family: "Courier New", monospace;
+  font-size:90%; 
+  color:white;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
