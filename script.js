@@ -1,5 +1,6 @@
 var numbers = Array.from({length: 100}, (_, i) => i + 1);
 var originalNumbers = [...numbers];
+var newIcon = "img/favicon2.ico";
 
 function agafa() {
   var rangeInput = document.getElementById("rangeInput").value;
@@ -9,6 +10,8 @@ function agafa() {
     document.getElementById("rangTxt").innerHTML = "<b>Si us plau, entreu un nombre vàlid!</b>";
     return;
   }
+
+  document.getElementById("icona").href = newIcon;
 
   // Convert the input value to an integer
   var range = parseInt(rangeInput);
