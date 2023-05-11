@@ -11,6 +11,7 @@ function agafa() {
     return;
   }
 
+  document.getElementById("rangTxt").innerHTML = "";
   document.getElementById("icona").href = newIcon;
 
   // Convert the input value to an integer
