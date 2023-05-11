@@ -22,6 +22,7 @@ function agafa() {
   originalNumbers = [...numbers];
 
   document.getElementById("info").innerHTML = "Feu clic al botó per generar un nombre aleatori entre 1 i " + numbers.length;
+  document.title = "Nombres Aleatoris"
 }
 
 function generateNumber() {
@@ -43,6 +44,7 @@ function generateNumber() {
 
   // Display the random number in the HTML
   document.getElementById("result").innerHTML = "El teu nombre aleatori és: " + randomNumber;
+  document.title = randomNumber + " - Nombres Aleatoris"
 }
 
 function resetNumbers(tipus) {
@@ -53,43 +55,6 @@ function resetNumbers(tipus) {
     document.getElementById("result").innerHTML = "S'ha tornat a començar!";
   } else {
     document.getElementById("result").innerHTML = "No queden més nombres!<br>Tornarà a començar de 0";
+    document.title = "Nombres Aleatoris"
     }
 }
-
-
-// // Initialize an array of numbers from 1 to 118
-// var numbers = Array.from({length: 3}, (_, i) => i + 1);
-// var originalNumbers = [...numbers]; // make a copy of the original array
-
-// function generateNumber() {
-//   // Check if there are any numbers left in the array
-//   if (numbers.length === 0) {
-// 	resetNumbers(2)
-//     return;
-//   }
-
-//   // Get a random index from the array
-//   var randomIndex = Math.floor(Math.random() * numbers.length);
-
-//   // Get the random number from the array
-//   var randomNumber = numbers[randomIndex];
-
-//   // Remove the random number from the array to prevent repetition
-//   numbers.splice(randomIndex, 1);
-
-//   // Display the random number in the HTML
-//   document.getElementById("result").innerHTML = "El teu nombre aleatori és: " + randomNumber;
-// }
-
-// function resetNumbers(tipus) {
-//   // Restore the original array of numbers
-//   numbers = [...originalNumbers];
-	
-  // if (tipus == 1) {
-	// document.getElementById("result").innerHTML = "S'ha tornat a començar!";
-  // } else {
-	// document.getElementById("result").innerHTML = "No queden més nombres!<br>Tornarà a començar de 0";
-  // }
-  
-// }
-
