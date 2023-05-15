@@ -1,5 +1,5 @@
 body{
-  background-color: #07002f;
+  background-color: #040c1c; /* #07002f */
 }
 
 .column {
@@ -35,62 +35,63 @@ body{
   }
 }
 
-
 #rang {
   float: right;
   padding: 10px;
   float: left;
   width: 20%;
   margin-top: 50px;
-  border: 3px solid #73AD21;
+  border: 3px solid;
   text-align: center;
   margin-bottom: 100px;
 }
 
 #info {
-  font-family: "Courier New", monospace;
   font-size: 20px;
   margin-top: 20px;
 }
 
 h1 {
-  font-family: "Courier New", monospace;
+  font-family: Arial, Helvetica, sans-serif;;
   font-size: 36px;
   margin-bottom: 20px;
-  color: white;
+  color: #7ebdc1;
 }
 
 button {
-  font-family: "Courier New", monospace;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
-  border-radius: 5px;
-  background-color: #007bffcd;
-  color: #fff;
+  border-radius: 3px;
+  background-color: rgb(242, 242, 242);
   border: none;
-  cursor: pointer;
   font-size: 18px;
 }
 
 button:hover {
-  background-color: #0062cc;
+  background-color: #bdbcbc;
 }
 
 p {
-  font-family: "Courier New", monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   margin-top: 20px;
   color: white;
 }
 
+input {
+  font-size: 16px;
+}
+
 #rangTxt {
-  font-family: "Courier New", monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   margin-top: 20px;
-  color: tomato
+  color: tomato;
+  text-align: center;
 }
 
 .drets {
-  font-family: "Courier New", monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size:90%; 
   color:white;
 }
