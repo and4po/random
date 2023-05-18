@@ -29,7 +29,7 @@ body{
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 815px) {
   .column.side, .column.middle {
     width: 100%;
   }
@@ -99,5 +99,9 @@ input {
 
 .footer {
   text-align: center;
-  padding: 10px;
+  position: fixed;
+  left: 5px;
+  bottom: 0;
+  right: 5px;
+  background-color: #040c1c;
 }
